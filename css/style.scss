@@ -1,0 +1,25 @@
+//Geral
+@import 'reset';
+@import 'normalize';
+
+html{
+    margin: 0;
+    display: block;
+    padding: 0;
+}
+.home > header{
+    display: block;
+    top: 0;
+    margin: 0 0 ; 
+    background-color: #000;
+    height: 80%;
+    .logo{
+    margin: 20% 0 0 20%;
+    
+    display: block;
+    width: 232px;    
+        .a{
+            fill:#0079aa;                    
+        }     
+    }
+}
