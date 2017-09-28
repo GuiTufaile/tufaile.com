@@ -4,6 +4,7 @@
 /**
  * Remove anchor text-decoration
  */
+@import url("https://fonts.googleapis.com/css?family=Dosis");
 a {
   text-decoration: none; }
 
@@ -415,22 +416,129 @@ template {
 [hidden] {
   display: none; }
 
-html {
-  margin: 0;
-  display: block;
-  padding: 0; }
+.home * {
+  font-family: 'Dosis', sans-serif; }
 
 .home > header {
   display: block;
   top: 0;
-  margin: 0 0;
+  margin: 0;
   background-color: #000;
+  min-height: 600px;
   height: 80%; }
   .home > header .logo {
-    margin: 20% 0 0 20%;
     display: block;
+    float: none;
+    position: absolute;
+    margin: 15% 0 0 15%;
     width: 232px; }
     .home > header .logo .a {
       fill: #0079aa; }
+  .home > header ul {
+    display: block;
+    float: right;
+    position: absolute;
+    list-style-type: none;
+    width: 40px;
+    margin: 14% 84%;
+    font-size: 1.5em; }
+    .home > header ul li {
+      height: 40px; }
+      .home > header ul li a {
+        color: #0079aa;
+        line-height: normal; }
+      .home > header ul li a:hover {
+        color: #0099d6; }
+
+html {
+  box-sizing: border-box; }
+
+*, *:before, *:after {
+  box-sizing: inherit; }
+
+html {
+  background: #152637;
+  font-size: 0.625em; }
+
+.soc {
+  display: block;
+  font-size: 0;
+  list-style: none;
+  margin: 0;
+  padding: 48px;
+  padding: 4.8rem;
+  text-align: center; }
+
+.soc li {
+  display: inline-block;
+  margin: 12px;
+  margin: 1.2rem; }
+
+.soc a, .soc svg {
+  display: block; }
+
+.soc a {
+  position: relative;
+  height: 96px;
+  height: 9.6rem;
+  width: 96px;
+  width: 9.6rem; }
+
+.soc svg {
+  height: 100%;
+  width: 100%; }
+
+.soc em {
+  font-size: 14px;
+  line-height: 1.5;
+  margin-top: -0.75em;
+  position: absolute;
+  text-align: center;
+  top: 50%;
+  right: 0;
+  bottom: 0;
+  left: 0; }
+
+.icon-1:hover, .icon-2:hover, .icon-3:hover, .icon-4:hover, .icon-5:hover {
+  border-radius: 50%;
+  color: #152637;
+  fill: #152637;
+  transform: scale(1.25);
+  transition: background-color 0.5s, transform 0.5s ease-out; }
+
+.icon-1 {
+  color: #d94a26;
+  fill: #d94a26; }
+
+.icon-1:hover {
+  background: #d94a26; }
+
+.icon-2 {
+  color: #d96e26;
+  fill: #d96e26; }
+
+.icon-2:hover {
+  background: #d96e26; }
+
+.icon-3 {
+  color: #d99126;
+  fill: #d99126; }
+
+.icon-3:hover {
+  background: #d99126; }
+
+.icon-4 {
+  color: #d9b526;
+  fill: #d9b526; }
+
+.icon-4:hover {
+  background: #d9b526; }
+
+.icon-5 {
+  color: #0079aa;
+  fill: #0079aa; }
+
+.icon-5:hover {
+  background: #0099d6; }
 
 /*# sourceMappingURL=style.css.map */
